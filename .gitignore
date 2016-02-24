@@ -1,0 +1,8 @@
+## Ignore Matlab temporary files.
+
+# Cache/options directory
+*.asv
+
+
+## Ignore Delphi7 temporary files.
+*.~pas

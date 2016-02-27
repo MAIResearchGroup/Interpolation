@@ -4,10 +4,10 @@ interface
   type
      TVector = array of double;
 
-  function LagrangePolyInterp(args, values : TVector; x : double):double;
+  function LagrangeGlobalPolyInterp(args, values : TVector; x : double):double;
 
 implementation
-   function LagrangePolyInterp(args, values : TVector; x : double):double;
+   function LagrangeGlobalPolyInterp(args, values : TVector; x : double):double;
    var
       res : double;
       i, j : integer;

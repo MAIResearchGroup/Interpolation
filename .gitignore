@@ -6,3 +6,4 @@
 
 ## Ignore Delphi7 temporary files.
 *.~pas
+*.dcu

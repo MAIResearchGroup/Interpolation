@@ -27,6 +27,8 @@ implementation
       end;
 
       SetLength(koeff, 2);
+      for i:= 0 to len-1 do
+         koeff[i] := 1;
 
       for i:= 1 to len-1 do begin
          if(x >= args[i-1]) then begin

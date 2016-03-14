@@ -1,6 +1,7 @@
 ## Ignore Matlab temporary files.
 
 # Cache/options directory
+/MatLab2014b/Test
 *.asv
 
 
